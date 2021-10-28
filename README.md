@@ -10,6 +10,4 @@ We derive the dynamic equations for each of the aligned spins from the spin chai
 
 The self-consistent problem utilizes the time independent Schrodinger equation (which reduces to a eigenvalues problem), it casts the wave functions needed to solve the non-linear system of equations for spins.
 
-![Self-consistency_problem](Self-consistency_problem.png)
-
 Solving these equations will give the solution for the static case (time derivative matched to zero). The solution consists on an array of spins, a new configuration for the chain. This new set of spin is now given to the eigenvalue problem to solve, and the cycle repeats again, until the loop converges to a stable solution for the system.
